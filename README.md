@@ -1,7 +1,7 @@
 # Getting Started with Pup Quest
 
 
-### You can check out the demo [here](https://dogfinder-six.vercel.app/).
+You can check out the demo [here](https://dogfinder-six.vercel.app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
