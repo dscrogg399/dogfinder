@@ -23,3 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 .cert
+
+package-lock.json
+
+.env
