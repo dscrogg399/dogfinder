@@ -9,7 +9,7 @@ After cloning this project you should first install the node modules
 
 #### `npm i`
 
-##Setting up certificates
+## Setting up certificates
 Then you'll need to set up an SSL certificate for this to work with the backend. This means you have to launch the site with https protocol.
 Theres tons of ways you can do this so I'll describe a quick easy way to do it.
 
