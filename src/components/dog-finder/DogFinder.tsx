@@ -65,7 +65,7 @@ function DogFinder({
   }
 
   return (
-    <Col className="px-5 w-full 2xl:w-[90%] mx-auto h-full overflow-y-scroll relative justify-start space-y-4 pb-4">
+    <Col className="px-5 w-full mx-auto h-full overflow-y-scroll relative justify-start space-y-4 pb-4">
       <MatchPanel
         open={matchPanelOpen}
         setOpen={setMatchPanelOpen}
