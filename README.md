@@ -2,8 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+After cloning this project you should first install the node modules
 
+#### `npm i`
+
+##Setting up certificates
+Then you'll need to set up an SSL certificate for this to work with the backend. This means you have to launch the site with https protocol.
+Theres tons of ways you can do this so I'll describe a quick easy way to do it.
+
+First, we want tools to make certificates with.
+#### `brew install mkcert`
+#### `brew install nss`
+#### `mkcert -install`
+
+Then, in the root of the project directory, you should make a certificate folder like this
+#### `mkdir -p .cert`
+
+And then generate an ssl certificate to host the site securely
+#### `mkcert -key-file ./.cert/key.pem -cert-file ./.cert/cert.pem "localhost"`
+
+The start script is already set up for this but if you set up your certs in a different way you may need to alter it.
+
+## Available Scripts
 In the project directory, you can run:
 
 ### `npm start`
